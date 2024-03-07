@@ -1,0 +1,64 @@
+body{
+    direction: rtl;
+    background-color: rgb(223, 223, 223);
+}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+#wrapper{
+    background-color: rgb(213, 219, 224);
+}
+#loginForm{
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    float: right;
+    width: 360px;
+    height: 250px;
+    margin-top: 50px;
+    margin-right: 500px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 1px 0px black;
+}
+#in-loginForm{
+    margin-top: 20px;
+
+
+}
+.inputer{
+    width: 300px;
+    height:40px;
+    border-radius: 10px;
+    margin: 5px;
+    border: 1px solid gray;
+    
+
+}
+#btn{
+    width:130px ;
+    height: 40px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border: none;
+    margin-top: 10px;
+    transition: 500ms;
+
+
+}
+#btn:hover{
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+
+}
